@@ -22,7 +22,7 @@ export default function Home() {
                 <a href="https://cambrianone.substack.com/" target="_blank" className="hover:underline me-4 md:me-6">Substack</a>
             </li>
             <li>
-                <a href="https://x.com/gena_with_beard" target="_blank" className="hover:underline">Gena's X</a>
+                <a href="https://x.com/gena_with_beard" target="_blank" className="hover:underline">Gena&apos;s X</a>
             </li>
         </ul>
       </div>
