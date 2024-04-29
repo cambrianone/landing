@@ -9,6 +9,23 @@ export default function Home() {
       </div>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
       </div>
+
+      <div className="relative flex place-items-center ">
+        <ul className="flex flex-wrap mt-3 text-sm font-medium text-neutral-700 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a href="https://x.com/cambrianone" target="_blank" className="hover:underline me-4 md:me-6">X</a>
+            </li>
+            <li>
+                <a href="https://docs.cambrian.one" target="_blank" className="hover:underline me-4 md:me-6">Docs</a>
+            </li>
+            <li>
+                <a href="https://cambrianone.substack.com/" target="_blank" className="hover:underline me-4 md:me-6">Substack</a>
+            </li>
+            <li>
+                <a href="https://x.com/gena_with_beard" target="_blank" className="hover:underline">Gena's X</a>
+            </li>
+        </ul>
+      </div>
     </main>
   )
 }
